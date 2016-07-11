@@ -1,0 +1,171 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400&subset=latin,cyrillic);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*END RESET STYLES*/
+
+
+
+body {
+	font-size:16px;
+	padding-top:70px;
+	font-family:Open Sans;
+	color:#444;
+	line-height:22px;
+	background-image:url('../img/background.png');
+}
+
+a {
+	text-decoration:none;
+	color:#fff;
+}
+
+#header {
+	font-size:22px;
+	padding:20px 0px;
+	background-color:#f77472;
+	height:30px;
+	text-transform:uppercase;
+	position:fixed;
+	width:100%;
+	top:0;
+}
+
+#add_lot {
+	width:200px;
+	float:left;
+}
+
+#login_block {
+	float:right;
+	color:#fff;
+}
+
+#logout_block {
+	float:right;
+}
+
+.center_align {
+	margin:0 auto;
+}
+
+#wrapper {
+	width:960px;
+	padding:10px;
+	background-color:#fff;
+}
+
+#center_header {
+	width:960px;
+}
+
+.lot:after {
+	clear:both;
+	content:" ";
+    display:block;
+}
+
+.lot {
+	border-bottom:2px solid #eee;
+	margin-bottom:10px;
+}
+
+.lot_image {
+	float:left;
+	width:270px;
+}
+
+.lot_image {
+	width:250px;
+	height:250px;
+}
+
+.lot_fields {
+	width:650px;
+	float:right;
+}
+
+.lot_name {
+	font-size:20px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.price_block {
+	width:320px;
+	float:left;
+}
+
+.time_block {
+	text-align:center;
+	width:320px;
+	float:right;
+}
+
+.lot_description {
+	margin-bottom:20px;
+}
+
+.bet {
+	width:100px;
+	height:22px;
+	margin-top:10px;
+	padding:6px;
+	background-color:#f77472;
+	text-align:center;
+	font-size:22px;
+}
+
+.bet a {
+	display:block;
+}
+
+.start_price {
+	
+}
+
+.current_price {
+	
+}

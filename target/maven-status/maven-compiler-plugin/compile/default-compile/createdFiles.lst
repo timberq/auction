@@ -1,0 +1,5 @@
+api\LotApiService.class
+model\Lot.class
+model\User.class
+controller\MainController.class
+model\LotStatus.class
